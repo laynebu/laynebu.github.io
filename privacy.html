@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy</title>
+  <meta name="description" content="Privacy policy for Your App Name." />
+  <style>
+    :root {
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #111827;
+      --accent-hover: #374151;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 48px 20px 24px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 5vw, 3rem);
+    }
+
+    header p {
+      margin: 0 auto;
+      max-width: 680px;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    nav {
+      width: min(900px, calc(100% - 32px));
+      margin: 0 auto 20px;
+      text-align: center;
+    }
+
+    nav a {
+      display: inline-block;
+      margin: 6px;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      width: min(900px, calc(100% - 32px));
+      margin: 0 auto 56px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 30px;
+      box-shadow: 0 12px 32px rgba(17, 24, 39, 0.06);
+    }
+
+    h2 {
+      margin-top: 28px;
+      margin-bottom: 8px;
+      font-size: 1.35rem;
+    }
+
+    h2:first-child {
+      margin-top: 0;
+    }
+
+    p, li {
+      color: var(--text);
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    footer {
+      text-align: center;
+      padding: 28px 20px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Privacy Policy</h1>
+    <p>This privacy policy explains how Your App Name handles user information.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </nav>
+
+  <main>
+    <section class="card">
+      <p class="muted"><strong>Last updated:</strong> Month Day, Year</p>
+
+      <h2>Overview</h2>
+      <p>
+        Your App Name respects your privacy. This page explains what information the app collects,
+        how that information is used, and how you can contact us with questions.
+      </p>
+
+      <h2>Information We Collect</h2>
+      <p>
+        Replace this section with the specific information your app collects. For example, your app
+        may collect information you provide directly, such as support requests, account details, or
+        feedback.
+      </p>
+
+      <h2>Information Collected Automatically</h2>
+      <p>
+        Replace this section with details about any analytics, crash reporting, device information,
+        or usage data collected by the app. If your app does not collect this information, state that
+        clearly here.
+      </p>
+
+      <h2>How We Use Information</h2>
+      <p>
+        Information may be used to provide app functionality, respond to support requests, improve
+        the app, fix bugs, and maintain security.
+      </p>
+
+      <h2>Sharing of Information</h2>
+      <p>
+        We do not sell personal information. Information may be shared only when necessary to operate
+        the app, comply with legal obligations, protect rights and safety, or with your consent.
+      </p>
+
+      <h2>Third-Party Services</h2>
+      <p>
+        Replace this section with any third-party services your app uses, such as analytics providers,
+        crash reporting tools, payment processors, cloud hosting services, or authentication providers.
+      </p>
+
+      <h2>Data Retention</h2>
+      <p>
+        Replace this section with how long user information is retained. In general, information should
+        only be kept for as long as needed for the purposes described in this policy.
+      </p>
+
+      <h2>Children’s Privacy</h2>
+      <p>
+        This app is not intended for children under 13. If you believe a child has provided personal
+        information, please contact us so we can take appropriate action.
+      </p>
+
+      <h2>Your Choices</h2>
+      <p>
+        You may contact us to ask questions about your information, request deletion where applicable,
+        or update information you have provided.
+      </p>
+
+      <h2>Changes to This Policy</h2>
+      <p>
+        We may update this privacy policy from time to time. Any changes will be posted on this page
+        with an updated date.
+      </p>
+
+      <h2>Contact Us</h2>
+      <p>
+        For privacy questions, contact us at:
+        <a href="mailto:support@example.com">support@example.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Your App Name. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
